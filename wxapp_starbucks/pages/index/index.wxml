@@ -1,0 +1,74 @@
+<view class="container">
+  <scroll-view>
+  <view class="poster">
+    <image src="../../images/poster.png"></image>
+  </view>
+  <view class="content__friend">
+    <text class="index-text">请朋友们喝咖啡</text>
+
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index_coffeeOnMe.png" class="index-photo"></image>
+        <text class="content-text">@all 我想对你们说</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index_wellDone.png" class="index-photo"></image>
+        <text class="content-text">@all 给特别的你们</text>
+      </view>
+    </view>
+  </view>
+  <view class="content__friend" >
+    <text class="index-text">星礼卡表心意</text>
+
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index1.png" class="index-photo"></image>
+        <text class="content-text">@all 想你们啦</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index2.png" class="index-photo"></image>
+        <text class="content-text">@all 庆祝一下吧</text>
+      </view>
+      </view>
+
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index3.png" class="index-photo"></image>
+        <text class="content-text">开启夏日旅程</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index4.png" class="index-photo"></image>
+        <text class="content-text">一起浪一夏</text>
+      </view>
+      </view>
+
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index5.png" class="index-photo"></image>
+        <text class="content-text">多谢大家</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index6.png" class="index-photo"></image>
+        <text class="content-text">大家都还好吗</text>
+      </view>
+      </view>
+
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index7.png" class="index-photo"></image>
+        <text class="content-text">爱你们哟</text>
+      </view>
+      <view class=" photo-box" bindtap="">
+        <image src="../../images/index8.png" class="index-photo"></image>
+        <text class="content-text">生日快乐</text>
+      </view>
+    </view>
+  </view>
+  <view class="buyhistory">
+    <image class="buyhistory-icon" src="../../images/buyhistory.png"></image>
+    <text class="buyhistory-text"> 购买历史</text>
+    <view class="line"></view>
+  </view>
+
+  </scroll-view>
+</view>

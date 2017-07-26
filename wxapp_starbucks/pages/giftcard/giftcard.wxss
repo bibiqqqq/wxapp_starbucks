@@ -1,0 +1,46 @@
+.container {
+  width: 90%;
+  /*background-color: pink;*/
+  margin-left: 5%;
+}
+.title{
+  top: 0;
+  height: 160rpx;
+  border-bottom: 1px solid #EDECED;
+  position: relative;
+}
+.title-text{
+  position: absolute;
+  font-family: "MicrosoftYaHei";
+  top: 62rpx;
+}
+.content{
+  margin-top: 40rpx;
+}
+.house{
+
+}
+.time{
+
+}
+.summary{
+display: flex;
+}
+.tag-flex{
+width: 22%;
+}
+.detail-flex{
+width: 81%;
+line-height: 45rpx;
+margin-top: 9rpx;
+}
+.tag{
+  font-size: 28rpx;
+  font-family: "MicrosoftYaHei";
+}
+.detail{
+  font-size: 28rpx;
+  font-family: "MicrosoftYaHei";
+  color: #A8A8A8;
+
+}

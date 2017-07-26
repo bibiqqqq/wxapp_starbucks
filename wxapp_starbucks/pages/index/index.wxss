@@ -1,0 +1,76 @@
+.container{
+  background-color: #F5F5F5;
+}
+
+.poster{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.poster image{
+  width: 100%;
+  height: 600rpx;
+}
+.index-text{
+  font-size: 30rpx;
+  font-family: "MicrosoftYaHei";
+  padding-left: 40rpx;
+
+}
+.content-text{
+  font-size: 28rpx;
+  color: #8b8b8b;
+
+}
+.content__friend{
+  padding: 0;
+  margin: 0;
+  margin-top: 20rpx;
+
+}
+
+.photo-flex{
+  display: flex;
+  margin-left: 40rpx;
+  margin-bottom: 40rpx;
+}
+.photo-box{
+border-radius: 16rpx;
+width: 45%;
+margin-right: 40rpx;
+background: white;
+line-height: normal;
+text-align: center;
+
+}
+.index-photo{
+  width: 100%;
+height: 170rpx;
+border-radius: 16rpx;
+}
+.buyhistory{
+  padding-top: 14rpx;
+  text-align: center;
+  height: 300rpx;
+}
+.buyhistory-text{
+
+  color: #2D4E84;
+  font-size: 28rpx;
+  font-family: "MicrosoftYaHei";
+}
+.buyhistory-icon{
+height: 30rpx;
+width: 30rpx;
+margin-bottom: -4rpx;
+}
+.line {
+  width: 90%;
+  height: 1rpx;
+  margin-top: 90rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  padding: 0px;
+  background-color: #E8E7E8;
+  overflow: hidden;
+}

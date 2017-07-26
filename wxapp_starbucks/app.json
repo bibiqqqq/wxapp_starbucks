@@ -1,0 +1,17 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/giftcard/giftcard",
+   
+    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F9F9F9",
+    "navigationBarTitleText": "星巴克用星说",
+    "navigationBarTextStyle":"black"
+  }
+}

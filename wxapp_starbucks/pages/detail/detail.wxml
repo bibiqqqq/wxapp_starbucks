@@ -1,0 +1,81 @@
+<scroll-view scroll-y="true">
+  <view class="tab" wx:for="{{details}} ">
+    <view class="tab-poster">
+      <image class="tab-poster-photo" model="aspectFit" src="{{poster}}"></image>
+    </view>
+    <view class="tab">
+      <image class="gift" src="../../images/gift.png"></image>
+      <text class="tab-text">选择卡面</text>
+      <view class="flex">
+        <view class="box-photo" bindtap="btn_change1">
+          <image src="{{image1}}" class="box-image"></image>
+        </view>
+        <view class="box-photo" bindtap="btn_change2">
+          <image src="{{image2}}" class="box-image"></image>
+        </view>
+        <view class="box-photo" bindtap="btn_change3">
+          <image src="{{image3}}" class="box-image"></image>
+        </view>
+        <view class="box-photo" bindtap="btn_change4">
+          <image src="{{image4}}" class="box-image"></image>
+        </view>
+        <view class="box-photo" bindtap="btn_change5">
+          <image src="{{image5}}" class="box-image"></image>
+        </view>
+        <view class="box-photo" bindtap="btn_change6">
+          <image src="{{image6}}" class="box-image"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cart-box">
+    <image class="money" src="../../images/money.png"></image>
+    <text class="gift-text">选择礼品</text>
+    <view wx:for="{{carts}}" class="{{item.num>0?'green':'gifts-box'}}">
+      <navigator class="gifts-content" url="../giftcard/giftcard">
+        <view class="gifts-title-box">
+          <text class="gifts-title">{{item.title}}</text>
+        </view>
+        <view class="gifts-price-box">
+          <text class="gifts-price">{{item.price}}元</text>
+        </view>
+      </navigator>
+      <view class="numCount numCount_active" wx:if="{{item.num>0}}">
+        <view class="numMin-box" bindtap="minusCount" data-index="{{index}}">
+          <text class="numMin">-</text>
+        </view>
+        <view class="num-box">
+          <text class="num">{{item.num}}</text>
+        </view>
+        <view class="numAdd-box" bindtap="addCount" data-index="{{index}}">
+          <text class="numAdd">+</text>
+        </view>
+      </view>
+      <view class="numCount" wx:if="{{item.num==0}}">
+        <view class="numAdd-box-0" bindtap="addCount" data-index="{{index}}">
+          <text class="numAdd-0">+</text>
+        </view>
+      </view>
+
+
+    </view>
+  </view>
+</scroll-view>
+<view class="bottom_0" wx:if="{{totalNum==0}}">
+  <view class="buyAndGive_0">
+    <text>购买并赠送</text>
+  </view>
+</view>
+<view class="bottom_1" wx:if="{{totalNum>0}}">
+  <view class="shopping-car">
+    <view class="shopping-car1">
+      <text class="shopping-car-1">共{{totalNum}}份</text>
+    </view>
+    <view class="shopping-car2">
+      <text class="shopping-car-2">{{totalPrice}}</text>
+    </view>
+  </view>
+  <view class="buyAndGive_1">
+    <text>购买并赠送</text>
+  </view>
+</view>

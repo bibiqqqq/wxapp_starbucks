@@ -1,0 +1,19 @@
+<scroll-view scroll-y="true">
+  <view class="container">
+    <view class="title">
+      <text class="title-text">礼品卡详情</text>
+    </view>
+    <view class="content">
+      <view class="house">
+        <text class="tag">适用门店：</text><text class="detail">查看全部门店</text>
+      </view>
+      <view class="time">
+        <text class="tag">可用时段：</text><text class="detail">2017.07.26-2020.07.24</text>
+      </view>
+      <view class="summary">
+        <view class="tag-flex"><text class="tag">使用须知：</text></view>
+        <view class="detail-flex"><text class="detail">{{summary}}</text></view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
