@@ -31,6 +31,7 @@ _2.开发文档：_[微信小程序必备无敌文档](https://www.w3cschool.cn/
 在tab切换上，做到了大图切换和小图高亮,是不是效果还不错😁<br>
 具体效果图：如下 <br>
 ![](https://github.com/bibiqqqq/wxapp_starbucks/blob/master/wxapp_starbucks/gif/tab.gif)<br>
+这里底部闪光是因为录屏软件的问题哦<br>
 _实现代码：如下<br>
 ```javascript
     <view class="tab-poster">
